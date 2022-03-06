@@ -34,7 +34,7 @@ public class DeleteIncident extends baseClass {
 		.deleteTheIncident()
 		;
 		
-		
+		System.out.println("Smoke test successfully executed");
 	}
 
 
