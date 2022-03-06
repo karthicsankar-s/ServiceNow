@@ -104,7 +104,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="SmokeTest.CreateIncident" class="method navigator-link" hash-for-method="createIncident">createIncident</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="SmokeTest.CreateIncident" class="method navigator-link" hash-for-method="createIncidentThroughAutomation">createIncidentThroughAutomation</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -127,9 +127,9 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="createIncident">
-                  </a> <!-- createIncident -->
-                  <span class="method-name">createIncident</span>
+                  <a name="createIncidentThroughAutomation">
+                  </a> <!-- createIncidentThroughAutomation -->
+                  <span class="method-name">createIncidentThroughAutomation</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -188,14 +188,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'createIncident')
+data.setCell(0, 1, 'createIncidentThroughAutomation')
 data.setCell(0, 2, 'SmokeTest.CreateIncident')
-data.setCell(0, 3, 3);
+data.setCell(0, 3, 11687);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 ms</span>
+              <span class="suite-total-time">Total running time: 11 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -210,9 +210,16 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">1 ignored method</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">SmokeTest.CreateIncident</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">createIncident</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Suite" class="panel">
@@ -222,10 +229,26 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">SmokeTest.CreateIncident</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">createIncident</span>
+              <div class="configuration-test before">
+                <span class="method-name">CreateTestReport</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">Driver(public void SmokeTest.CreateIncident.createIncidentThroughAutomation() throws java.lang.InterruptedE...)</span>
+                <span class="method-start">172 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createIncidentThroughAutomation</span>
+                <span class="method-start">8647 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Close</span>
+                <span class="method-start">20336 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">CleanUp</span>
+                <span class="method-start">20945 ms</span>
+              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
