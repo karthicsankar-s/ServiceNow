@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="26.229" tests="1" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="12.514" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.7+8-LTS"/>
@@ -25,7 +25,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="F:\Selenium_Workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8053313528354825769.tmp"/>
+    <property name="classworlds.conf" value="F:\Selenium_Workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3806163425399183838.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.7\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java8/bin/server;C:/Program Files/Java8/bin;C:/Program Files/Java8/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Java\jdk-11.0.7\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;F:\Maven\apache-maven-3.8.1\\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;F:\Maven\apache-maven-3.8.1\bin\;F:\Maven\apache-maven-3.8.1\\bin;C:\Program Files\Git\bin;C:\Users\Karthi Sankar\AppData\Local\Microsoft\WindowsApps;;F:\Visual Studio Code\Microsoft VS Code\bin;C:\Users\Karthi Sankar\AppData\Roaming\npm;F:\Selenium\Eclipse\eclipse;;."/>
     <property name="jdk.debug" value="release"/>
@@ -60,5 +60,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="createIncidentThroughAutomation" classname="SmokeTest.CreateIncident" time="26.229"/>
+  <testcase name="createIncidentThroughAutomation" classname="SmokeTest.CreateIncident" time="12.514"/>
 </testsuite>

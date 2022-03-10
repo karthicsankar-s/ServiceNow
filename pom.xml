@@ -38,7 +38,7 @@
 						<source>6</source>
 						<target>1.8</target>
 						<suiteXmlFiles>
-							<suiteXmlFile>F:\Selenium_Workspace\service\testng.xml</suiteXmlFile>
+							<suiteXmlFile>testng.xml</suiteXmlFile>
 						</suiteXmlFiles>
 					</configuration>
 				</plugin>
