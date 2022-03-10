@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-10T22:00:35 IST" name="Suite" finished-at="2022-03-10T22:00:56 IST" duration-ms="21453">
+  <suite name="Suite" duration-ms="21672" started-at="2022-03-10T22:49:57 IST" finished-at="2022-03-10T22:50:19 IST">
     <groups>
     </groups>
-    <test started-at="2022-03-10T22:00:35 IST" name="Test" finished-at="2022-03-10T22:00:56 IST" duration-ms="21453">
+    <test name="Test" duration-ms="21672" started-at="2022-03-10T22:49:57 IST" finished-at="2022-03-10T22:50:19 IST">
       <class name="SmokeTest.CreateIncident">
-        <test-method is-config="true" signature="CreateTestReport()[pri:0, instance:SmokeTest.CreateIncident@b3ca52e]" started-at="2022-03-10T22:00:35 IST" name="CreateTestReport" finished-at="2022-03-10T22:00:35 IST" duration-ms="175" status="PASS">
+        <test-method status="PASS" signature="CreateTestReport()[pri:0, instance:SmokeTest.CreateIncident@56ef9176]" name="CreateTestReport" is-config="true" duration-ms="167" started-at="2022-03-10T22:49:57 IST" finished-at="2022-03-10T22:49:57 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateTestReport -->
-        <test-method is-config="true" signature="Driver(java.lang.reflect.Method)[pri:0, instance:SmokeTest.CreateIncident@b3ca52e]" started-at="2022-03-10T22:00:35 IST" name="Driver" finished-at="2022-03-10T22:00:43 IST" duration-ms="7934" status="PASS">
+        <test-method status="PASS" signature="Driver(java.lang.reflect.Method)[pri:0, instance:SmokeTest.CreateIncident@56ef9176]" name="Driver" is-config="true" duration-ms="9078" started-at="2022-03-10T22:49:57 IST" finished-at="2022-03-10T22:50:06 IST">
           <params>
             <param index="0">
               <value>
@@ -22,15 +22,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Driver -->
-        <test-method signature="createIncidentThroughAutomation()[pri:0, instance:SmokeTest.CreateIncident@b3ca52e]" started-at="2022-03-10T22:00:43 IST" name="createIncidentThroughAutomation" finished-at="2022-03-10T22:00:55 IST" duration-ms="12511" status="PASS">
+        <test-method status="PASS" signature="createIncidentThroughAutomation()[pri:0, instance:SmokeTest.CreateIncident@56ef9176]" name="createIncidentThroughAutomation" duration-ms="11589" started-at="2022-03-10T22:50:06 IST" finished-at="2022-03-10T22:50:18 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createIncidentThroughAutomation -->
-        <test-method is-config="true" signature="Close()[pri:0, instance:SmokeTest.CreateIncident@b3ca52e]" started-at="2022-03-10T22:00:55 IST" name="Close" finished-at="2022-03-10T22:00:56 IST" duration-ms="612" status="PASS">
+        <test-method status="PASS" signature="Close()[pri:0, instance:SmokeTest.CreateIncident@56ef9176]" name="Close" is-config="true" duration-ms="601" started-at="2022-03-10T22:50:18 IST" finished-at="2022-03-10T22:50:18 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Close -->
-        <test-method is-config="true" signature="CleanUp()[pri:0, instance:SmokeTest.CreateIncident@b3ca52e]" started-at="2022-03-10T22:00:56 IST" name="CleanUp" finished-at="2022-03-10T22:00:56 IST" duration-ms="202" status="PASS">
+        <test-method status="PASS" signature="CleanUp()[pri:0, instance:SmokeTest.CreateIncident@56ef9176]" name="CleanUp" is-config="true" duration-ms="216" started-at="2022-03-10T22:50:18 IST" finished-at="2022-03-10T22:50:19 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CleanUp -->
